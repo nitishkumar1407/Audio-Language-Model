@@ -10,28 +10,25 @@ The system provides an **interactive dashboard** where users can upload audio fi
 
 ---
 
-##  Features
+#  Features
 
- **Audio Upload & Visualization :**
-Upload audio files and preview them with an interactive waveform visualizer.
-
- **Speech-to-Text Transcription :**
-Convert audio recordings into accurate textual transcripts.
-
- **Speaker Diarization :**
-Identify and separate multiple speakers within an audio conversation.
-
- **Speaker Analytics Dashboard :**
-Visualize speaker distribution and conversation patterns.
-
-  **Emotion & Paralinguistic Analysis :**
-Analyze vocal cues such as tone, pitch, energy, and emotion to understand speaker sentiment and conversational context.
+ **Audio Upload & Preprocessing :** Upload audio files in multiple formats with automated preprocessing using **Pydub** and **FFmpeg** for optimized speech analysis.
 
 
- **Audio Question Answering (Q&A) :**
-Ask contextual questions about the uploaded audio.
+  **Speech-to-Text Transcription :** Generate accurate transcripts from spoken audio using **OpenAI Whisper**, supporting robust speech recognition across diverse audio inputs.
 
- **Real-Time Audio Processing Pipeline**
+
+ **Speaker Segmentation :** Identify and segment conversational speech to improve transcript organization and conversation analysis.
+
+
+ **Conversation Analytics :** Extract key insights from transcripts, including summaries, keywords, sentiment, and conversation statistics.
+
+
+**Context-Aware Audio Question Answering :** Ask natural language questions about uploaded audio and receive intelligent responses generated from transcript analysis.
+
+
+ **End-to-End Audio Intelligence Pipeline :** A modular pipeline that integrates audio preprocessing, speech recognition, transcript analysis, and contextual reasoning for intelligent audio understanding.
+
 
 ---
 
