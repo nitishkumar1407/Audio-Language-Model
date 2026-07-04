@@ -3,7 +3,8 @@
 
 
 **Audio Language Model (ALM)** is an advanced AI-powered system designed to **understand, analyze, and reason over audio conversations**.
-It integrates **speech recognition, speaker diarization, audio event detection, emotion/paralinguistic analysis and contextual reasoning**  into a unified pipeline for intelligent audio understanding.
+A multimodal AI pipeline integrating OpenAI Whisper (ASR),Pydub and FFmpeg for audio preprocessing, and
+Transformer-based NLP for transcript analysis, summarization, and contextual audio understanding.
 
 The system provides an **interactive dashboard** where users can upload audio files, visualize waveforms, generate transcriptions, analyze speakers, and ask questions about the audio content.
 
