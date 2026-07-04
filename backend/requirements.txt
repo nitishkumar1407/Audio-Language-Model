@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+python-multipart
+torch
+faster-whisper
+torchaudio
+speechbrain
+scikit-learn
+numpy
+sounddevice
+soundfile
+librosa
+tqdm
+ollama
+streamlit
+requests
