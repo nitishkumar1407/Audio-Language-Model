@@ -6,7 +6,7 @@ print("====================================")
 print("AHNA MODEL STARTING...")
 print("====================================")
 
-# Whisper model function
+# Whisper model 
 model = WhisperModel(
     "base",
     compute_type="int8"
