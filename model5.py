@@ -15,7 +15,7 @@ model = WhisperModel(
 # Audio path
 audio_path = input(
     "\nEnter audio file path: "
-)
+
 
 if not os.path.exists(audio_path):
 
